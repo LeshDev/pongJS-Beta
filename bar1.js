@@ -1,11 +1,11 @@
 function bar1() {
-  this.y = height/2;
+  this.y = width/2;
   this.ydir = 0;
 
   this.show = function(){
     fill(255);
     rectMode(CENTER);
-    rect(this.y, height-20, 20, 20);
+    rect(this.y, 10, 20, 70);
   }
 
   this.setDir = function(dir) {
